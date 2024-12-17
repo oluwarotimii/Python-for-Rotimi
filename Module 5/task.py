@@ -4,6 +4,16 @@
 name = str(input('What is your name: '))
 age = int(input('Enter you age: '))
 
+# year_left = /18 - age 
+
+# def years_to_vote  (age):
+#      try:
+#         year_left = 18 - age
+#         print(year_left)
+#      except:
+#         print('invalid')
+#     # years_to_vote()
+
 try:
     name = str(name)
     print('name')
@@ -29,11 +39,5 @@ print('Details Accepted', name, 'is', age, ' years old.')
 if age >= 18:
     print('You are Eligible to Vote !')
 else:
-    # def years_to_vote  (age):
-    #  try:
-    #     year_left = 18 - age
-    #     print(year_left)
-    #  except:
-    #     print('invalid')
-    #  years_to_vote()
-    print('Ooops, not Eligible yet, try again in ')  
+    
+    print('Ooops, not Eligible yet, try again in ', year_left, 'years')  
