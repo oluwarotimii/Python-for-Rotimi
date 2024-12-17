@@ -61,5 +61,7 @@ operator precedence - putting the parenthenes whe using operators.
 
 
  ## PART 3
+  Comments are ways of adding text that are going to be ignored by python.
+  it is done by adding the #
  
  
