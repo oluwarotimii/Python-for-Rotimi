@@ -69,3 +69,53 @@ print(str(userSpeed) + ' m/s')
 # Thanks.
 
 # PART 3
+# Expressions
+x = 12
+y = 2
+z = x + y
+print(f"The sum of {x} and {y} is {z}")
+
+# Practising naming for variables by calculating Speed and Velocity
+distance_traveled = 100  # meters
+time_taken = 10  # seconds
+
+speed = distance_traveled / time_taken
+print(f"The speed is {speed} m/s")
+
+# Another acceptable naming format
+distance = 100  # meters
+time = 10  # seconds
+
+speed = distance / time
+print(f"The speed is {speed} m/s")
+
+# Next is the Operator Precedence
+x = 1 + 39 ** 3 % 2 * 2
+print(f"The result of the expression is {x}")
+
+# Example with parentheses
+new_x = 1 + (((39 ** 3) % 2) * 2)
+print(f"The result of the expression with parentheses is {new_x}")
+
+# TYPES
+print(type(new_x))  # This should give an Integer
+print(type(speed))  # This should give a Float
+
+# Let's try this
+first_name = 'Oluwarotimi'
+print(type(first_name))  # This should give a String
+
+# Converting data types
+x = '123'
+x = int(x) + 1
+print(x)
+
+# User Input: Testing user input with Speed calculations
+print('Welcome to the Speed Calculator!')
+user_distance_traveled = float(input('Enter the Distance Traveled (in meters): '))
+user_time_taken = float(input('Enter Time Taken (in seconds): '))
+
+user_speed = user_distance_traveled / user_time_taken
+print(f"The speed is {user_speed} m/s")
+
+# Part 3 for Expressions
