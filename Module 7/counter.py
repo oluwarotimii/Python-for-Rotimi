@@ -32,3 +32,43 @@ for  samples in [23,434,34,5,45,6,5,67,78,7,89,8,9,56,56,56,56,3,7,834,767,45,56
     # print(zork, samples)
 print('=====================================================================')
 print('final loop number', zork)
+
+
+#sum again
+
+count = 0
+sum = 0
+print('Inception', count, sum)
+for value in [23,23,23,23,233,23,4345,232,4,45456,7676,878,4,5,34,6778,3432323,766,8987767,34,623,98928,94,25,6869,7898,96055,3993480,48574,38498] :
+    count = count + 1 #loop number
+    sum = sum + value # give sum another number which adding sum and value
+    print('count, sum, value', count, sum, value)
+print('The end', count, sum, '\nAverage: ', sum/count)
+
+
+# Foltering in a loop
+
+print('Inception')
+for numbs in [1,2,3,45,56,77,88,89,45,67,34,8,97,856] :
+    if numbs > 90 :
+        print('THE Largest Number is: ', numbs)
+print('The End, Largest number is :',  numbs)
+
+
+# finding a number using boolean varibale to indicate
+print('INCEPTION')
+found = False
+loop = 0
+print('++++++++++++++++++++++')
+print('Found? ',found)
+
+for value in [12,34,45,67,5,3,34,67,45,8,596,562,1,56,0,67,56] :
+    loop = loop + 1
+    print('The Value is: ', value, ' And the loop number is:  ', loop)
+    if value == 0 :
+        found = True
+        print('The value was found.')
+        break
+    else:
+        print('NOT FOUND!')
+print('END OF PROGRAM!')
