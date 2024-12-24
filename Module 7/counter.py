@@ -72,3 +72,20 @@ for value in [12,34,45,67,5,3,34,67,45,8,596,562,1,56,0,67,56] :
     else:
         print('NOT FOUND!')
 print('END OF PROGRAM!')
+
+#for the smallest value
+
+# we are going to be using none type
+print('INCEPTION')
+smallest = None  # here  means the numbers we have seen as the smallest is nothing
+#  also the use of is  because is  way more powerful tan equals too
+
+print('+++++++++++++++++++++++++++++++++==============================++++++++++++++++++++++++++')
+
+for value in [3,23,4,34,56,2,3,2,56,76,34,5,634,56,34,67,34,56,23,78,98] :
+    if smallest is None :
+        smallest = value
+    elif value < smallest :
+        smallest = value
+    print('Smallest', smallest, 'Value', value)
+print('END OF PROGRAM', smallest)
