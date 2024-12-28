@@ -50,3 +50,20 @@ print('Also my surname is ', full_name[12 : 19] )
 
 print('Thanks =======================================')
 
+
+# CONCATENATION OF STRINGS
+#  ALSO TH  IN CAN BE USEDD AS A LOGICAL OPERATOR, IT RETURNS A TRUE OR FALSE.
+
+if 'w' in full_name:
+    print('found it !')
+
+print( full_name.upper())
+print(full_name.lower())
+print(full_name.find('a'))
+print(type(full_name))
+print(full_name.isdigit())
+print(full_name.strip())
+print(full_name.capitalize())
+print(full_name.startswith('A'))
+print(full_name.replace('oluwarotimi', 'Emmanuel'))
+print(full_name.lstrip())  # LEFT AND RIGHT STRIP FOR GETTIGN RID OF  WHITESPACES
