@@ -10,6 +10,7 @@ print("Welcome to Frobenius's Guessing Game. \n Please Pick a number")
 def start_game() :
     number_guesses = 3
     user_number = int(input('What is this number you picked in your mind?  '))
+    
     number_guesses = number_guesses - 1
     rand_number = random.randint(0,10)
     # print(rand_number)
@@ -31,3 +32,4 @@ def start_game() :
 
 
 start_game()
+
