@@ -80,4 +80,3 @@ for lines in newFile :
 print('++++++++++++++++++++++++-++++++++++++=================================')
 
 print('AI was found in ', count, ' lines ', "\n Looked through the file and AI wasn't in ", zcount)
-
