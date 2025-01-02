@@ -14,7 +14,7 @@
 
 ---
 
-### **2. Simple Calculator**
+### **2. Simple Calculator** ✅
 - **Objective**: Build a basic calculator that performs addition, subtraction, multiplication, and division.
 - **Skills Demonstrated**:
   - Using functions for modular code.
