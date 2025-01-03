@@ -21,8 +21,9 @@ def password_generator()  :
     newNumbers = random.choices(passwordNumbers, k=3)
 
     password = newUletters + newSletters + newSymbol + newNumbers
+    # password = list.index(password)
     password = ''.join(password)
-    password = ran
+    
     
 
     
