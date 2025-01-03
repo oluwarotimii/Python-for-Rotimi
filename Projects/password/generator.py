@@ -17,10 +17,12 @@ def password_generator()  :
 
     newUletters = random.choices(capitalLetters, k=3)
     newSletters = random.choices(smallLetters, k=3)
-    newSymbol = random.choices(passwordSymbols, k=3git)
+    newSymbol = random.choices(passwordSymbols, k=3)
     newNumbers = random.choices(passwordNumbers, k=3)
 
     password = newUletters + newSletters + newSymbol + newNumbers
+    password = ''.join(password)
+    password = ran
     
 
     
