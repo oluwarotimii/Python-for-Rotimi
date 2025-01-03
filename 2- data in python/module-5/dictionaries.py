@@ -11,13 +11,13 @@ name['oluwatoyosi'] = 2003
 # else:
 #     print('false')
 
-# age = dict()
-# ageInput = int(input('How old are you?  '))
-# yearInput = int(input('What year were you born? '))
+age = dict()
+ageInput = int(input('How old are you?  '))
+yearInput = int(input('What year were you born? '))
 
-# age[yearInput] = ageInput
+age[yearInput] = ageInput
 
-# print(age)
+print(age)
 
 # nameVals = list(name.values())
 
