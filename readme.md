@@ -14,7 +14,7 @@
 
 ---
 
-### **2. Simple Calculator**
+### **2. Simple Calculator** ✅
 - **Objective**: Build a basic calculator that performs addition, subtraction, multiplication, and division.
 - **Skills Demonstrated**:
   - Using functions for modular code.
@@ -23,7 +23,7 @@
 
 ---
 
-### **3. Password Generator**
+### **3. Password Generator** ✅
 - **Objective**: Generate random, secure passwords based on user-defined criteria (length, inclusion of symbols, etc.).
 - **Skills Demonstrated**:
   - Using `random` and `string` modules.
