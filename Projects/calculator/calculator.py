@@ -4,7 +4,7 @@ def simple_calc() :
     operators = ['+', '-', '*', '/', '%']
     try:
         num1 = int(input('Enter the first number: '))
-        operator = input('Enter the operator(+,-,*,/,%): ')
+        operator = input('Enter the operator(+,-,*,/,%): ') # input
         num2 = int(input("Enter the Second number: "))
         if operator not in operators :
             print('Invalid Operator!')
@@ -16,9 +16,9 @@ def simple_calc() :
         elif operator == '*' :
             solution = num1 * num2
         elif operator == '/' :
-            solution = num1 - num2
+            solution = num1 / num2
         elif operator == '%' :
-            solution = num1 * num2
+            solution = num1 % num2
 
         print('The answer is: ', solution)
     except:
