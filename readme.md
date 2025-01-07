@@ -23,7 +23,7 @@
 
 ---
 
-### **3. Password Generator**
+### **3. Password Generator** ✅
 - **Objective**: Generate random, secure passwords based on user-defined criteria (length, inclusion of symbols, etc.).
 - **Skills Demonstrated**:
   - Using `random` and `string` modules.
