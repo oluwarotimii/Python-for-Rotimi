@@ -1,0 +1,4 @@
+We have two cats, their names are Tom and Gary.
+They are 2 and 5 years old respectively.
+They also have the colors Black and Grey.
+The cats, <bound method Cat.walking of <__main__.Cat object at 0x0000025667715610>> and <bound method Cat.walking of <__main__.Cat object at 0x0000025667715670>> are walking along the lawn.
