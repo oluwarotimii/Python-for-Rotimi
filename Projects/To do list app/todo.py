@@ -1,6 +1,6 @@
 #this is the To do list app
 #need to use OOP
-
+# Trying to use a idea where the code is alwsys actie and users press a letter to perform a functions?
 
 taskFile = open('Todo.txt', "w")
 class Tasks():
