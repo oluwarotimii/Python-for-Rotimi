@@ -54,7 +54,19 @@ class TaskManager():
                 print(f"Updating Task: {self.tasks[task_id]}")
                 new_name = input("Enter the new Task Name (or press enter to keep current name): ")
                 new_status = input("Enter the new status of the Tasks (Completedd/Pending) (or press enter to keep the current status)")
-        except:
+
+                if new_name:
+                    self.tasks[task_id].name = new_name
+                if new_status:
+                    self.tasks[task_id].status = new_status
+                
+                self.save_tasks()
+                print("Task Updated successfully")
+            else:
+                print("Invalid Tasks Number.")
+            
+        except: ValueError:
+            print("Please enter valid number.")
 
 
 
