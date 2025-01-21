@@ -32,7 +32,7 @@
 
 ---
 
-### **4. To-Do List App**
+### **4. To-Do List App**✅
 - **Objective**: Build a command-line to-do list app to add, remove, and update tasks.
 - **Skills Demonstrated**:
   - Lists, dictionaries, and functions.
