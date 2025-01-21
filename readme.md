@@ -42,7 +42,7 @@
 
 ---
 
-### **5. Rock, Paper, Scissors Game**
+### **5. Rock, Paper, Scissors Game** ✅
 - **Objective**: Create a game where the user plays against the computer.
 - **Skills Demonstrated**:
   - Random choice generation.
