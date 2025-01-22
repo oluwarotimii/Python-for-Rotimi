@@ -32,7 +32,7 @@
 
 ---
 
-### **4. To-Do List App**
+### **4. To-Do List App**✅
 - **Objective**: Build a command-line to-do list app to add, remove, and update tasks.
 - **Skills Demonstrated**:
   - Lists, dictionaries, and functions.
@@ -42,7 +42,7 @@
 
 ---
 
-### **5. Rock, Paper, Scissors Game**
+### **5. Rock, Paper, Scissors Game** ✅
 - **Objective**: Create a game where the user plays against the computer.
 - **Skills Demonstrated**:
   - Random choice generation.
@@ -51,7 +51,7 @@
 
 ---
 
-### **6. Unit Converter**
+### **6. Unit Converter** ✅
 - **Objective**: Convert between units (e.g., kilometers to miles, Celsius to Fahrenheit).
 - **Skills Demonstrated**:
   - Writing functions for repeated tasks.
