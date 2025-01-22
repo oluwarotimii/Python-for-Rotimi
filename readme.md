@@ -51,7 +51,7 @@
 
 ---
 
-### **6. Unit Converter**
+### **6. Unit Converter** ✅
 - **Objective**: Convert between units (e.g., kilometers to miles, Celsius to Fahrenheit).
 - **Skills Demonstrated**:
   - Writing functions for repeated tasks.
